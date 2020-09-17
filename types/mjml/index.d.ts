@@ -14,6 +14,7 @@ interface MJMLParsingOpts {
     validationLevel?: 'strict' | 'soft' | 'skip';
     filePath?: string;
     minifyOptions?: MJMLMinifyOptions;
+    ignoreIncludes?: boolean;
 }
 
 interface MJMLParseError {
